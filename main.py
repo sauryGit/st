@@ -37,7 +37,7 @@ TRADING_RATIO = st.sidebar.slider(
 ) / 100
 
 LOOKBACK_DAYS = st.sidebar.slider(
-    "가격 분석 기간 (일)", 40, 120, 60, 10
+    "가격 분석 기간 (일)", 10, 120, 60, 10
 )
 
 RISE_FROM_LOW = st.sidebar.slider(
